@@ -1,14 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Header } from 'react-native/Libraries/NewAppScreen';
+import Header from './src/components/Header';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Header/>
       <Text style={styles.con}>Hello World</Text>
       <StatusBar style="auto" />
     </View>
-    
+
   );
 }
 
