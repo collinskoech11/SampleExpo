@@ -8,6 +8,7 @@ export default function App() {
       <Text style={styles.con}>Hello World</Text>
       <StatusBar style="auto" />
     </View>
+    
   );
 }
 
