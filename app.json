@@ -1,0 +1,12 @@
+{
+  "name": "sample-expo",
+  "displayName": "sample-expo",
+  "expo": {
+    "name": "sample-expo",
+    "slug": "sample-expo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
